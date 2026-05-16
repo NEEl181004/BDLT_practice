@@ -1,0 +1,16 @@
+Ganache
+Open Ganache ETH
+Show key -> First -> Copy Private Key
+
+Open MetaMask
+Create Account
+Accounts->Add Wallet->Import an Account->Paste Private Key->Import
+click on imported account->click menu on right corner with three line ->Networks->Add Custom Network
+
+Network Name - Ganache
+Add RPC  URL -> Open Ganache Window -> Copy RPC Server link (Most of time:HTTP://127.0.0.1:7545)->Paste->Add Url
+Chain ID -> open Ganache Window ->copy Network id (Most of time 5777 if error than try 1337)->paste->Add
+Currency Symbol-ETH
+Save
+
+Now Imported Account would show Value if imported properly
